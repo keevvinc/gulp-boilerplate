@@ -1,0 +1,4 @@
+*[class^="button_"] { @include button(); }
+
+// @include button-color($color-base, $color-white, transparent, $color-base, 1px, $color-base, $color-base);
+// @include button-size(14px, $fWeight-text_regular, 6px 12px);

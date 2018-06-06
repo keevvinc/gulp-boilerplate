@@ -1,0 +1,57 @@
+{
+	"name": "gulp-boilerplate",
+	"authors": [{
+		"name": "kevin",
+		"email": "keevvinc@gmail.com"
+	}],
+	"private": true,
+	"devDependencies": {
+		"chai": "^3.5.0",
+		"mocha": "3.1.0",
+		"modernizr": "~2.8.1"
+	},
+	"dependencies": {
+		"jquery": "^3.1.1",
+		"bootstrap": "boostrap#3.3.7",
+		"wow": "^1.1.2",
+		"matchHeight": "^0.7.0",
+		"owl.carousel": "^2.2.0",
+		"cookieconsent": "^3.0.3",
+		"tooltipster": "^4.1.6",
+		"normalize-css": "^5.0.0",
+		"jquery-validation": "^1.16.0",
+		"font-awesome": "^4.7.0"
+	},
+	"overrides": {
+		"font-awesome": {
+			"main": [
+				"css/font-awesome.min.css"
+			]
+		},
+		"bootstrap": {
+			"main": [
+				"dist/css/bootstrap.min.css",
+				"dist/js/bootstrap.min.js"
+			]
+		},
+		"wow": {
+			"main": [
+				"dist/wow.min.js",
+				"css/libs/animate.css"
+			]
+		},
+		"tooltipster": {
+			"main": [
+				"dist/js/tooltipster.bundle.js",
+				"dist/css/tooltipster.bundle.css",
+				"dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css"
+			]
+		},
+		"jquery-validation": {
+			"main": [
+				"dist/jquery.validate.min.js",
+				"dist/additional-methods.min.js"
+			]
+		}
+	}
+}
