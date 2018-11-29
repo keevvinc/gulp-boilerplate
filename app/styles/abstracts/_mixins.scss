@@ -20,12 +20,12 @@
     };
 }
 
-@mixin animation() {
-    -moz-transition: all 200ms linear;
-    -o-transition: all 200ms linear;
-    -ms-transition: all 200ms linear;
-    -webkit-transition: all 200ms linear;
-    transition: all 200ms linear;
+@mixin animation($time:200ms) {
+    -moz-transition: all $time linear;
+    -o-transition: all $time linear;
+    -ms-transition: all $time linear;
+    -webkit-transition: all $time linear;
+    transition: all $time linear;
 }
 
 @mixin font($size: null, $style: null, $weight: null, $variant: null, $family: null) {
