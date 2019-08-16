@@ -16,23 +16,23 @@ body {
 	    }
 	}
 
-	li { list-style: none; }
+	ul li { list-style: none; }
 
 	h1, h2, h3, h4, h5, h6 { margin: 0; }
 	
 	::selection {
-	    color: $color-white;
-	    background: $color-black;
+	    color: $white;
+	    background: $black;
 	    text-shadow: none;
 	}
 	::-webkit-selection {
-	    color: $color-white;
-	    background: $color-black;
+	    color: $white;
+	    background: $black;
 	    text-shadow: none;
 	}
 	::-moz-selection {
-	    color: $color-white;
-	    background: $color-black;
+	    color: $white;
+	    background: $black;
 	    text-shadow: none;
 	}
 
